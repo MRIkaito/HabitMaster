@@ -1,0 +1,50 @@
+{
+  "name": "habitapp",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.2",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "@react-navigation/stack": "^6.3.29",
+    "expo": "~51.0.17",
+    "expo-constants": "~16.0.2",
+    "expo-device": "~6.0.2",
+    "expo-linear-gradient": "~13.0.2",
+    "expo-linking": "~6.3.1",
+    "expo-notifications": "^0.28.9",
+    "expo-router": "~3.5.17",
+    "expo-status-bar": "~1.12.1",
+    "firebase": "^10.11.0",
+    "react": "18.2.0",
+    "react-native": "^0.74.2",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-reanimated": "~3.10.1",
+    "react-native-safe-area-context": "4.10.1",
+    "react-native-screens": "3.31.1",
+    "react-native-timer-picker": "^1.6.0",
+    "reanimated": "^0.0.1-alpha",
+    "expo-tracking-transparency": "~4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.79",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.34.1",
+    "typescript": "~5.3.3"
+  },
+  "private": true
+}
