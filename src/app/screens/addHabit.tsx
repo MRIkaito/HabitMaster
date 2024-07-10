@@ -53,7 +53,7 @@ const AddHabit = (): JSX.Element => {
   return (
   <View style = {styles.container}>
     <View style={styles.habitMissionSection}>
-      <Text style={styles.habitMissionDescription}>習慣化したいことはなんですか？</Text>
+      <Text style={styles.habitMissionDescription}>習慣化したいこと</Text>
       <TextInput
         onChangeText = {(mission) => { setHabitMission(mission) }}
         value = { habitMission }
@@ -116,10 +116,10 @@ const styles = StyleSheet.create({
     height: 80,
     paddingLeft: 24,
     paddingRight: 24,
-    marginBottom: 16
+    marginBottom: 28
   },
   habitMissionDescription: {
-    fontSize: 24,
+    fontSize: 22,
     lineHeight: 28
   },
   habitMissionTextInput: {
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
   },
   habitMissionDetailDescription: {
     alignItems: 'center',
-    fontSize: 24,
+    fontSize: 22,
     lineHeight: 28
   },
   habitMissionDetailTextInput: {

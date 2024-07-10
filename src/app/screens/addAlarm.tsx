@@ -320,7 +320,8 @@ const styles = StyleSheet.create({
     height: 32,
     width: 48,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    flexDirection: 'row'
   },
   offRepeatDay: {
     backgroundColor: '#C0C0C0',
@@ -328,10 +329,11 @@ const styles = StyleSheet.create({
     height: 32,
     width: 48,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    flexDirection: 'row'
   },
   dayText: {
-    fontSize: 24,
+    fontSize: 22,
     lineHeight: 30,
     textAlign: 'center'
   },

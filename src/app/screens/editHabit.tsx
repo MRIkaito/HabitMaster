@@ -466,7 +466,7 @@ const styles = StyleSheet.create({
   },
   repeatWeek: {
     lineHeight: 24,
-    fontSize: 20
+    fontSize: 16
   },
   addButton: {
     width: 32,

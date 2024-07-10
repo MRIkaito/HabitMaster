@@ -433,10 +433,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   dayText: {
-    fontSize: 23,
-    lineHeight: 23
+    fontSize: 22,
+    lineHeight: 30,
+    textAlign: 'center'
   },
   alarmTimeScrollViewSection: {
+    backgroundColor: '#E0F6FF',
     alignItems: 'center',
     justifyContent: 'center',
     height: '100%'
