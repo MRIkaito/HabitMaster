@@ -23,7 +23,11 @@
     "expo-notifications": "^0.28.9",
     "expo-router": "~3.5.17",
     "expo-status-bar": "~1.12.1",
+    "expo-tracking-transparency": "~4.0.2",
     "firebase": "^10.11.0",
+    "glob": "^11.0.0",
+    "inflight": "^1.0.6",
+    "osenv": "^0.1.5",
     "react": "18.2.0",
     "react-native": "^0.74.2",
     "react-native-gesture-handler": "~2.16.1",
@@ -32,7 +36,8 @@
     "react-native-screens": "3.31.1",
     "react-native-timer-picker": "^1.6.0",
     "reanimated": "^0.0.1-alpha",
-    "expo-tracking-transparency": "~4.0.2"
+    "rimraf": "^6.0.0",
+    "expo-dev-client": "~4.0.20"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

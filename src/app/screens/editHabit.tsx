@@ -461,11 +461,12 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   alarmTime: {
-    lineHeight: 56,
-    fontSize: 44
+    paddingTop: 8,
+    lineHeight: 40,
+    fontSize: 40
   },
   repeatWeek: {
-    lineHeight: 24,
+    lineHeight: 16,
     fontSize: 16
   },
   addButton: {

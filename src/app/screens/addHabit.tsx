@@ -68,7 +68,7 @@ const AddHabit = (): JSX.Element => {
       <Text style={styles.habitMissionDetailDescription}>詳細</Text>
       <TextInput
         onChangeText = {(missionDetail) => { setHabitMissionDetail(missionDetail) }}
-        placeholder = "例)仕事から帰ってきたらすぐに走りに行く！"
+        placeholder = " 例)帰宅したらすぐにジムに行く！"
         maxLength={70}
         editable = { true }
         multiline = { true }
@@ -119,8 +119,9 @@ const styles = StyleSheet.create({
     marginBottom: 28
   },
   habitMissionDescription: {
+    paddingTop: 2,
     fontSize: 22,
-    lineHeight: 28
+    lineHeight: 24
   },
   habitMissionTextInput: {
     backgroundColor: '#ffffff',
@@ -128,8 +129,9 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     height: 48,
     width: 336,
+    fontSize: 22,
     lineHeight: 24,
-    fontSize: 24
+    justifyContent: 'center'
   },
   habitMissionDetailSection: {
     paddingLeft: 24,
@@ -139,7 +141,7 @@ const styles = StyleSheet.create({
   habitMissionDetailDescription: {
     alignItems: 'center',
     fontSize: 22,
-    lineHeight: 28
+    lineHeight: 24
   },
   habitMissionDetailTextInput: {
     backgroundColor: '#ffffff',
@@ -147,8 +149,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     height: 136,
     width: 336,
-    lineHeight: 24,
-    fontSize: 24
+    fontSize: 22,
+    lineHeight: 24
   },
   notifySection: {
     paddingLeft: 24,

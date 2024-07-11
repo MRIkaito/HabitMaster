@@ -434,7 +434,7 @@ const styles = StyleSheet.create({
   },
   dayText: {
     fontSize: 22,
-    lineHeight: 30,
+    lineHeight: 26,
     textAlign: 'center'
   },
   alarmTimeScrollViewSection: {
